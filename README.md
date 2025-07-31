@@ -1,12 +1,12 @@
 # Budgetly 💰
 
-A Flutter-based personal budget management application that helps track income, expenses, set reminders, and export reports.
+A Flutter-based simple personal budget management application that helps track income, expenses, set reminders, and export reports.
 
 ## ✨ Features
 - Add/edit/delete transactions
 - Custom income & expense categories
 - Monthly and category summaries
-- Local notifications/reminders
+- Local reminders
 - Export transactions to CSV
 - Cross-platform: Windows, Android, Web, Mac, Linux
 
