@@ -1,16 +1,23 @@
-# budget_management_application
+# Budgetly 💰
 
-A new Flutter project.
+A Flutter-based personal budget management application that helps track income, expenses, set reminders, and export reports.
 
-## Getting Started
+## ✨ Features
+- Add/edit/delete transactions
+- Custom income & expense categories
+- Monthly and category summaries
+- Local notifications/reminders
+- Export transactions to CSV
+- Cross-platform: Windows, Android, Web, Mac, Linux
 
-This project is a starting point for a Flutter application.
+## 📦 Tech Stack
+- Flutter
+- Hive (for local storage)
+- path_provider, permission_handler
+- csv (for exporting)
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
