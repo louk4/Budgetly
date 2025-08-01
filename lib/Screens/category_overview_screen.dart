@@ -10,7 +10,7 @@ class CategoryOverviewScreen extends StatelessWidget {
     Map<String, double> categoryTotals = {};
 
     for (var transaction in transactionsBox.values) {
-      // Skip income if you want only expenses
+
       if (!transaction.isIncome) {
         categoryTotals[transaction.category] =
             (categoryTotals[transaction.category] ?? 0) + transaction.amount;
