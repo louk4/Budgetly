@@ -45,11 +45,11 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
       );
 
       if (widget.transaction != null) {
-        // Edit existing
+
         final index = box.values.toList().indexOf(widget.transaction!);
         box.putAt(index, newTransaction);
       } else {
-        // Add new
+
         box.add(newTransaction);
       }
 

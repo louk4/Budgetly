@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
     transactionBox = Hive.box<TransactionModel>('transactionsBox');
   }
 
-  // Helper function for styled buttons
+
   ButtonStyle customButtonStyle(Color color) {
     return ElevatedButton.styleFrom(
       backgroundColor: color,
