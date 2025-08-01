@@ -20,7 +20,7 @@ class ViewTransactionScreen extends StatelessWidget {
             return const Center(child: Text('No transactions found.'));
           }
 
-          final transactions = box.values.toList().reversed.toList(); // most recent first
+          final transactions = box.values.toList().reversed.toList();
 
           return ListView.builder(
             itemCount: transactions.length,

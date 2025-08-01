@@ -1,6 +1,6 @@
 import 'package:hive/hive.dart';
 
-part 'transaction_model.g.dart'; // This will be auto-generated
+part 'transaction_model.g.dart';
 
 @HiveType(typeId: 0)
 class TransactionModel extends HiveObject {

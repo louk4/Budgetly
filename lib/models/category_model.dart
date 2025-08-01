@@ -8,7 +8,7 @@ class CategoryModel {
   final String name;
 
   @HiveField(1)
-  final String type; // "income" or "expense"
+  final String type;
 
   CategoryModel({required this.name, required this.type});
 }
